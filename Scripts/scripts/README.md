@@ -21,14 +21,17 @@ $ sudo passwd
 2. Switch to the root user:
 $ sudo su
 
-3. Edit config for your node setup using your favourite text editor:
-# nano ss.conf
-
+3. Edit `ss.conf` for your node:
+`$ curl https://json.geoiplookup.io/$(curl https://ipinfo.io/ip)`
+`$ hostname --fqdn`
+`$ hostnamectl`
 4. Source the script:
-# source ss_00_main.sh
+
+`source ss_00_main.sh`
 
 5. Display help:
-# source ss_00_main.sh -h
+
+`source ss_00_main.sh -h`
 
 This script can be installed on any Debian based system. By default this script will:
 
